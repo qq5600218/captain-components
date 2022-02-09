@@ -1,0 +1,14 @@
+node_modules
+.git
+.github
+/package-lock.json
+/lib
+/vue.config.js
+/*.development
+/.env.development
+/env.development
+/*.development
+/*.env.development
+/.env.development
+/docs/.vuepress/dist
+

@@ -1,0 +1,143 @@
+.cap-vxe-table{
+  .vxe-table--header,
+  .vxe-table--body{
+    margin: 0;
+  }
+  .vxe-cell{
+    font-size:12px;
+    white-space: initial !important;
+    .vxe-cell--title{
+      font-weight: 700;
+    }
+  }
+  .vxe-body--column{
+    line-height: inherit !important;
+  }
+  // 表格内容区域8padding
+  .vxe-body--column:not(.col--ellipsis), 
+  .vxe-footer--column:not(.col--ellipsis){
+    font-size:12px !important;
+    padding: 0px !important;
+  }
+  .vxe-header--column:not(.col--ellipsis){
+    padding:0px !important;
+  }
+  .vxe-header--column{
+    .vxe-cell{
+      height:40px !important;
+      padding:8px !important;
+    }
+  }
+  .vxe-body--column{
+    .vxe-cell{
+      height:50px !important;
+      padding:8px 8px 8px 8px !important;
+    }
+  }
+  .vxe-one-line {
+    .vxe-body--column{
+      .vxe-cell{
+        height:auto !important;
+        padding:14px 8px 14px 8px !important;
+      }
+    }
+  }
+  
+  .vxe-footer--column{
+    .vxe-cell{
+      height:40px !important;
+      padding:8px !important;
+    }
+  }
+  // 表格内输入框使用气泡组件提示，所以不需要下边距
+  .el-form-item{
+    margin-bottom:0px;
+  }
+  .vxe-footer--column .vxe-cell .vxe-cell--item{
+    font-weight: 700 !important;
+  }
+  
+  .vxe-footer--row{
+    background: rgba(245,245,245,1) !important;
+  }
+  .el-input--medium{
+    font-size:12px;
+  }
+  .el-input--medium .el-input__inner{
+    height:24px;
+    line-height: 24px;
+    border-radius: 0px;
+    padding:0px 8px;
+  }
+  .el-input-group__append, .el-input-group__prepend{
+    border-radius: 0px;
+    padding: 0 8px;
+  }
+  .el-form-item--medium .el-form-item__content,
+  .el-form-item--medium .el-form-item__label{
+    line-height: 14px !important;
+  }
+  .el-divider__text,.el-link{
+    font-size:12px;
+  }
+  // 修复表格右边侧线条较粗问题
+  .is--checked.vxe-cell--checkbox, 
+  .is--checked.vxe-table--filter-option, 
+  .is--checked.vxe-export--panel-column-option, 
+  .is--checked.vxe-custom--option, 
+  .is--indeterminate.vxe-cell--checkbox, 
+  .is--indeterminate.vxe-table--filter-option, 
+  .is--indeterminate.vxe-export--panel-column-option, 
+  .is--indeterminate.vxe-custom--option,
+  .vxe-sort--asc-btn.sort--active, 
+  .vxe-sort--desc-btn.sort--active {
+    color: #27b8d0;
+  }
+
+  .is--checked.vxe-cell--checkbox .vxe-checkbox--icon:before,
+  .is--checked.vxe-table--filter-option .vxe-checkbox--icon:before, 
+  .is--checked.vxe-export--panel-column-option .vxe-checkbox--icon:before, 
+  .is--checked.vxe-custom--option .vxe-checkbox--icon:before, 
+  .is--indeterminate.vxe-cell--checkbox .vxe-checkbox--icon:before, 
+  .is--indeterminate.vxe-table--filter-option .vxe-checkbox--icon:before, 
+  .is--indeterminate.vxe-export--panel-column-option .vxe-checkbox--icon:before, 
+  .is--indeterminate.vxe-custom--option .vxe-checkbox--icon:before,
+  .is--checked.vxe-cell--radio .vxe-radio--checked-icon:before {
+    border-color: #27b8d0;
+    background-color: #27b8d0;
+  }
+
+  .vxe-cell--checkbox:not(.is--disabled):hover .vxe-checkbox--icon:before, 
+  .vxe-table--filter-option:not(.is--disabled):hover .vxe-checkbox--icon:before, 
+  .vxe-export--panel-column-option:not(.is--disabled):hover .vxe-checkbox--icon:before, 
+  .vxe-custom--option:not(.is--disabled):hover .vxe-checkbox--icon:before,
+  .vxe-cell--radio:not(.is--disabled):hover .vxe-radio--icon:before {
+      border-color: #27b8d0;
+  }
+  .vxe-table--body-wrapper::-webkit-scrollbar,
+  .vxe-table--fixed-left-body-wrapper::-webkit-scrollbar,
+  .vxe-table--fixed-right-body-wrapper::-webkit-scrollbar{/*滚动条整体样式*/
+    width: 10px;
+    height: 8px;
+  }
+
+  .vxe-table--body-wrapper::-webkit-scrollbar-thumb,
+  .vxe-table--fixed-left-body-wrapper::-webkit-scrollbar-thumb,
+  .vxe-table--fixed-right-body-wrapper::-webkit-scrollbar-thumb{/*滚动条里面小方块*/
+    border-radius: 5px;
+    background: #d7d7d7;
+  }
+  .vxe-table--body-wrapper::-webkit-scrollbar-track,
+  .vxe-table--fixed-left-body-wrapper::-webkit-scrollbar-track,
+  .vxe-table--fixed-right-body-wrapper::-webkit-scrollbar-track{/*滚动条里面轨道*/
+    border-radius: 5px;
+    background: #f5f5f5;
+  }
+}
+
+
+
+
+
+
+

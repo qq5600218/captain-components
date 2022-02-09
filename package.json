@@ -1,0 +1,49 @@
+{
+  "name": "captainbi_components",
+  "version": "0.0.91",
+  "description": "A magical vue admin. An out-of-box UI solution for enterprise applications. Newest development stack of vue. Lots of awesome features",
+  "license": "MIT",
+  "private": false,
+  "main": "./lib/captainbi_components.umd.min.js",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "lib": "vue-cli-service build --target lib --name captainbi_components --dest lib src/index.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "async-validator": "^1.11.5",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "date-week-range": "^1.0.5",
+    "element-ui": "^2.15.5",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "qs": "^6.10.2",
+    "vue": "2.6.10",
+    "vue-server-renderer": "^2.6.10",
+    "vuedraggable": "^2.24.3",
+    "vuepress": "^1.8.2",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0",
+    "xe-utils": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "3.5.3",
+    "@vue/cli-service": "3.5.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "2.6.10",
+    "vuepress-plugin-demo-container": "^0.2.0"
+  },
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie < 11"
+  ]
+}

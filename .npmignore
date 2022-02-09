@@ -1,0 +1,10 @@
+src/
+packages/
+public/
+.env.development
+.env.production
+jest.config.js
+jsconfig.json
+package-lock.json
+vue.config.js
+*.map
